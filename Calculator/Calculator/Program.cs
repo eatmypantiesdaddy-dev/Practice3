@@ -27,6 +27,7 @@
                     break;
 
                 case "3":
+                    Console.WriteLine($"Умножение: {A} * {B} = {A * B}");
                     break;
 
                 case "4":
