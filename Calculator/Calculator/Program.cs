@@ -27,12 +27,18 @@
                     break;
 
                 case "3":
+                    Console.WriteLine($"Умножение: {A} * {B} = {A * B}");
                     break;
 
                 case "4":
+                    Console.WriteLine($"Деление: {A} / {B} = {A / B}");
                     break;
 
                 case "0":
+                    Console.WriteLine("Выход из программы...");
+                    return;
+                default:
+                    Console.WriteLine("Неверный пункт меню.");
                     break;
             }
         }
