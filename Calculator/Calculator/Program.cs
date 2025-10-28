@@ -5,12 +5,14 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Выберите пункт меню:");
-            Console.WriteLine("1. Ввести А");
-            Console.WriteLine("2. Ввести В");
-            Console.WriteLine("3. Выполнить сложение");
-            Console.WriteLine("4. Выполнить вычитание");
-            Console.WriteLine("5. Выполнить умножение");
-            Console.WriteLine("6. Выполнить деление");
+            Console.WriteLine("Введите А:");
+            int A = int.Parse(Console.ReadLine());
+            Console.WriteLine("Введите В:");
+            int B = int.Parse(Console.ReadLine());
+            Console.WriteLine("1. Выполнить сложение");
+            Console.WriteLine("2. Выполнить вычитание");
+            Console.WriteLine("3. Выполнить умножение");
+            Console.WriteLine("4. Выполнить деление");
             Console.WriteLine("0. Выход");
             string key = Console.ReadLine();
 
@@ -26,12 +28,6 @@
                     break;
 
                 case "4":
-                    break;
-
-                case "5":
-                    break;
-
-                case "6":
                     break;
 
                 case "0":
