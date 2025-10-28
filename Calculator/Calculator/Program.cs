@@ -19,6 +19,7 @@
             switch (key)
             {
                 case "1":
+                    Console.WriteLine($"Сложение: {A} + {B} = {A + B}");
                     break;
 
                 case "2":
