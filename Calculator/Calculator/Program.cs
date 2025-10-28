@@ -35,6 +35,10 @@
                     break;
 
                 case "0":
+                    Console.WriteLine("Выход из программы...");
+                    return;
+                default:
+                    Console.WriteLine("Неверный пункт меню.");
                     break;
             }
         }
