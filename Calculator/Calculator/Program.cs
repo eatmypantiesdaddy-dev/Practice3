@@ -31,6 +31,7 @@
                     break;
 
                 case "4":
+                    Console.WriteLine($"Деление: {A} / {B} = {A / B}");
                     break;
 
                 case "0":
