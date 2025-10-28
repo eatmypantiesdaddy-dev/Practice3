@@ -19,9 +19,11 @@
             switch (key)
             {
                 case "1":
+                    Console.WriteLine($"Сложение: {A} + {B} = {A + B}");
                     break;
 
                 case "2":
+                    Console.WriteLine($"Вычитание: {A} - {B} = {A - B}");
                     break;
 
                 case "3":
